@@ -1,0 +1,227 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1C1C1C;
+}
+
+/* dark-active */
+
+.main-container-dark {
+    position: absolute;
+    max-width: 550px;
+    max-height: 550px;
+    margin: 150px;
+    background: #1F2937;
+}
+
+/* main */
+
+.container-top {
+    position: absolute;
+    width: 550px;
+    height: 260px;
+    left: 0px;
+    top: 0px;
+}
+/* Heading */
+.top-heading {
+    position: absolute;
+    width: 448.4px;
+    height: 38px;
+    left: 51px;
+    top: 53px;
+
+    font-family: Monospace;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 38px;
+    /* identical to box height, or 173% */
+
+    text-align: center;
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+}
+/* number to convert */
+input {
+    border-width: 0px;
+    border: none;
+    outline: none;
+    background: transparent;
+    resize: none;
+    color: #FFFFFF;
+}
+
+input:focus {
+    outline: none;
+}
+
+.number-to-convert {
+    border-width: 0px;
+    border: none;
+    outline: none;
+    
+    position: absolute;
+    width: 211px;
+    height: 51.23px;
+    left: 169px;
+    top: 155px;
+
+    font-family: Monospace;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 75px;
+    line-height: 24%;
+    /* or 25% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* background */
+
+.top-background {
+    position: absolute;
+    width: 550px;
+    height: 260px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+
+/* results */
+
+.container-bottom {
+   /* position: absolute;
+    width: 346px;
+    height: 215px;
+    left: 102px;
+    top: 297px; */
+    text-align: center;
+    background: #1F2937;
+}
+
+/* conversion-results meter / feet*/
+
+.conversion-results-meter-feet {
+    position: absolute;
+    width: 346px;
+    height: 55px;
+    left: 102px;
+    top: 297px;
+}
+/* Supporting text meter / feet */
+
+.supporting-text-meter-feet {
+ 
+
+    font-family: Monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+
+    color: #D2D2D2;
+}
+/* Supporting text heading meter feet */
+
+.supporting-text-heading-meter-feet {
+    
+
+    font-family: Monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+.conversion-results-liter-gallon {
+    position: absolute;
+    width: 346px;
+    height: 55px;
+    left: 102px;
+    top: 379px;
+}
+
+/* Supporting text liters galons */
+
+.supporting-text-liter-galon {
+   
+
+    font-family: Monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+
+    color: #D2D2D2;
+}
+
+.supporting-text-heading-liter-gallon {
+    
+
+    font-family: Monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.conversion-results-kilogram-pound {
+    position: absolute;
+    width: 346px;
+    height: 51px;
+    left: 102px;
+    top: 461px;
+}
+
+.supporting-text-kilogram-pound {
+   
+
+    font-family: Monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+
+    color: #D2D2D2;
+}
+
+.supporting-text-heading-kilogram-pound {
+    
+
+    font-family: Monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}

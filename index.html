@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="main-container-dark"> <!-- Start Main Container -->
+            <div class="container-top top-background"> <!-- Start Top Container -->
+                <span class="top-heading">Metric/Imperial unit conversion</span>
+                <input id="num-el" class="number-to-convert" type="number" placeholder="-" oninput="convert()">
+            </div> <!-- Ends Top Container -->
+            
+            <div class="container-bottom"><!-- Starts bottom Container -->
+            
+                <div class="conversion-results-meter-feet"><!-- Starts feet/meter Container -->
+                    <span class="supporting-text-heading-meter-feet">Length (Meter/Feet)</span>
+                    <p class="supporting-text-meter-feet" id="lenght-el">-</p>
+                </div><!-- Ends feet/meter Container -->
+                
+                <div class="conversion-results-liter-gallon"><!-- Starts liters/gallons Container -->
+                    <span class="supporting-text-heading-liter-gallon">Volume (Liters/Gallons)</span>
+                    <p class="supporting-text-liter-galon" id="volume-el">-</p>
+                </div><!-- Ends liters/gallons Container -->
+                
+                <div class="conversion-results-kilogram-pound"><!-- Starts killograms/pounds Container -->
+                    <span class="supporting-text-heading-kilogram-pound">Mass (Kilograms/Pounds)</span>
+                    <p class="supporting-text-kilogram-pound" id="mass-el">-</p>
+                </div><!-- Ends killograms/pounds Container -->
+                
+            </div><!-- Ends bottom Container -->
+        </div> <!-- Ends Main Container -->
+        <script src="index.js"></script>
+    </body>
+</html>
